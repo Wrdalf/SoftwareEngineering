@@ -1,4 +1,4 @@
-# software-ingineering-1
+# software-ingineering
 
 Отчет по Теме #2 выполнил(а):
 
@@ -148,7 +148,7 @@ a = 2 > 3
 print(a)
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam1.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam1.png)
 
 ### Вывод:
 python решает математические неравенства и если знак неравенства неверный выдает False и True если неравенство верное
@@ -162,7 +162,7 @@ a, b, c = 1, 2.1, 'three'
 print(a,b,c)
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam2.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam2.png)
 
 ### Вывод:
 несколько перменных можно задавать сразу в одной строке
@@ -177,7 +177,7 @@ print(a,b,c)
 print(int(input()))
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam3.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam3.png)
 
 ### Вывод:
 Если перед функцией input() задать тип переменной то этот input() будет принимать значения только этого типа
@@ -191,7 +191,7 @@ a = 'abcd!'
 print(a * 5)
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam4.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam4.png)
 
 ### Вывод:
 умножение данных типа Str копирует эту строку опреденное кол-во раз
@@ -205,7 +205,7 @@ day, month, year = 14, 'September', 2023
 print(f"Сегодня {day} {month} {year}.",  end=' Всего хорошего!')
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam5.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam5.png)
 
 ### Вывод:
 это упражнение помогает работать с переменными и форматировать вывод текста в python.
@@ -218,7 +218,7 @@ print(f"Сегодня {day} {month} {year}.",  end=' Всего хорошег�
 print('hello','world',sep=' my ' )
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam6.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam6.png)
 
 ### Вывод:
 тут мы используем аргумент sep `sep=' my '` для разделения строк, вместо " my " можно вставить любой другой символ и с его помощью будут разделяться строки 
@@ -232,7 +232,7 @@ hw = "Hello world!"
 print(len(hw))
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam7.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam7.png)
 
 ### Вывод:
 С помощью функции len() в python можно узнать длину строки или массива `print(len(hw))`
@@ -245,7 +245,7 @@ hw = "Hello World!"
 print(hw.lower())
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam8.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam8.png)
 
 ### Вывод:
 метод `.lower()` позволяет переводить строку в верхнем регистре в нижний.
@@ -262,7 +262,7 @@ else:
     print(f"{num} является нечетным")
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam9.png)
+![Меню][(https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam9.png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam9.png))
 
 ### Вывод:
 C Помощью % в целочисленном делении можно определить остаток от деления и в частности узнать четное число или нечетное
@@ -276,7 +276,7 @@ input_string = input("Введите строку: ")
 print("Строка задом наперед", input_string[::-1])
 ```
 ### Результат:
-![Меню](https://github.com/Wrdalf/software-ingineering/blob/lab1/%D1%82%D0%B5%D0%BC%D0%B0-2/sam10.png)
+![Меню](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/sam10.png)
 
 ### Вывод:
 тут с помощью этого куска кода: `input_string[::-1]`, мы получаем срез строки с отрицательным ходом -1, что позволяет идти в обратном порядке

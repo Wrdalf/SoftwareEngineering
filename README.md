@@ -3,7 +3,7 @@
 
 ## Выполненые работы:
 1. [Тема 1]()
-2. [Тема 2]()
-3. [Тема 3]()
+2. [Тема 2](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/Tema2.md)
+3. [Тема 3](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Tema3.md)
 4. [Тема 4]()
 5. 
