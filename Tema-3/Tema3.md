@@ -81,7 +81,7 @@ else:
     print(f"{num} не входит в диапазон от 0 до 10")
 ```
 ###  Результат
-![Решение самостоятельной 3]()
+![Решение самостоятельной 3](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-3.png)
 ### Вывод
 
 Сначала проверяется условие на вхождение числа в диапазон от 0 до 10 ```if num >= 0 and num <=10:``` и если число в него входит, то происходит проверка уже на принадлежность к диапазону либо от 0 до 3 включительно, либо от 3 до 6 включительно, либо же от 6 до 10 включительно. 
@@ -96,34 +96,46 @@ else:
 sentence = input("Напишите предложение на английском: ")
 print(len(sentence))
 print(sentence.lower())
-print(sentence.count('a'), sentence.count('e'), sentence.count('i'),sentence.count('o'), sentence.count('u'))
-for word in sentence.lower().split():
-    if word == 'ugly':
-        word == 'beauty'
-print(sentence.replace('ugly', 'beauty'))
+print(sentence.lower().count('a'), sentence.lower().count('e'), sentence.lower().count('i'), sentence.lower().count('o'), sentence.lower().count('u'))
+print(sentence.lower().replace('ugly', 'beauty'))
 if sentence.lower().startswith('the') and sentence.lower().endswith('end'):
     print(True)
 ```
 
 ###  Результат
 
-![Решение самостоятельной 4]()
+![Решение самостоятельной 4](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-4.png)
 
 ### Вывод
 
-*** Надо дописать
+Функция ```len()``` позволяет узнать длину массива / строки
+методы ```.lower()``` и ```.upper()``` нужны для того, чтобы менять регист предложения 
+метод ```count()``` позволяет считать количество заданных символов
+```replace()```: заменяет один текст на другой
+методы ```startswith()``` и ```endswith()``` возвращают True or False если текст оканчивается и оканчивается на нужное слово
 
 ## Самостоятельная работа №5
 
 ### Составьте программу, результатом которой будет данный вывод в консоль:
-![вывод программы 5](Tema-3/sam-5-(1).png)
+![вывод программы 5]([Tema-3/sam-5-(1).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5-(1).png))
 
 ### Программу нужно составить из данных фрагментов кода:
-![](Tema-3/sam-5(2).png)
+![]([Tema-3/sam-5(2).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5(2).png))
 
 ### Код программы
 
 ```python
+values = [0, 2, 4, 6 , 8, 10]
+counter = 0
+string = 'hello'
+while counter != 10:
+    if counter in values:
+        memory = ' world'
+        print (string + memory)
+        print(string)
+    counter += 1
+string = string + ' world'
+print (string)
 
 ```
 
@@ -133,3 +145,14 @@ if sentence.lower().startswith('the') and sentence.lower().endswith('end'):
 
 ### Вывод
 
+В коде используются операторы принадлежности ```in``` и ```not in``` : 
+```python
+while counter != 10:
+    if counter in values:
+        memory = ' world'
+        print (string + memory)
+        print(string)
+    counter += 1
+```
+Чтобы выводить текст ```hello world``` только при четном counter
+После того как цикл доходит до 10, выводится последний раз строка ```hello world```
