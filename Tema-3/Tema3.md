@@ -38,7 +38,7 @@ for i in range (2):
 print(x)
 ```
 ### Результат
-![Решение самостоятельной 1](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-1.png)
+![Решение самостоятельной 1](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/sam-1.png)
 
 ### Вывод
 В программе используются сокращенные операторы присваивания ```*=``` и ```+=```, также программа проходит по циклу for два раза 
@@ -56,7 +56,7 @@ for i in range (len(sentence) - 1, -1, -1):
 ```
 ###  Результат
 
-![Решение самостоятельной 2](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-2.png)
+![Решение самостоятельной 2](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/sam-2.png)
 
 ### Вывод
 
@@ -81,7 +81,7 @@ else:
     print(f"{num} не входит в диапазон от 0 до 10")
 ```
 ###  Результат
-![Решение самостоятельной 3](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-3.png)
+![Решение самостоятельной 3](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/sam-3.png)
 ### Вывод
 
 Сначала проверяется условие на вхождение числа в диапазон от 0 до 10 ```if num >= 0 and num <=10:``` и если число в него входит, то происходит проверка уже на принадлежность к диапазону либо от 0 до 3 включительно, либо от 3 до 6 включительно, либо же от 6 до 10 включительно. 
@@ -104,7 +104,7 @@ if sentence.lower().startswith('the') and sentence.lower().endswith('end'):
 
 ###  Результат
 
-![Решение самостоятельной 4](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-4.png)
+![Решение самостоятельной 4](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/sam-4.png)
 
 ### Вывод
 
@@ -117,11 +117,11 @@ if sentence.lower().startswith('the') and sentence.lower().endswith('end'):
 ## Самостоятельная работа №5
 
 ### Составьте программу, результатом которой будет данный вывод в консоль:
-![sam-5-(1).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5-(1).png)
+![sam-5-(1).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/sam-5-(1).png)
 
 
 ### Программу нужно составить из данных фрагментов кода:
-![Tema-3/sam-5(2).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5(2).png)
+![Tema-3/sam-5(2).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/sam-5(2).png)
 
 ### Код программы
 
@@ -142,7 +142,7 @@ print (string)
 
 ###  Результат
 
-![sam-5(3).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5(3).png)
+![sam-5(3).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/sam-5(3).png)
 
 ### Вывод
 
