@@ -117,10 +117,11 @@ if sentence.lower().startswith('the') and sentence.lower().endswith('end'):
 ## Самостоятельная работа №5
 
 ### Составьте программу, результатом которой будет данный вывод в консоль:
-![вывод программы 5]([Tema-3/sam-5-(1).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5-(1).png))
+![sam-5-(1).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5-(1).png)
+
 
 ### Программу нужно составить из данных фрагментов кода:
-![]([Tema-3/sam-5(2).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5(2).png))
+![Tema-3/sam-5(2).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5(2).png)
 
 ### Код программы
 
@@ -141,7 +142,7 @@ print (string)
 
 ###  Результат
 
-![Решение самостоятельной 5]()
+![sam-5(3).png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/sam-5(3).png)
 
 ### Вывод
 
