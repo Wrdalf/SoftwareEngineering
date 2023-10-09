@@ -198,13 +198,11 @@ while value < 100:
     else:
         value -= 5
     print(value)
+```
+#### Результат 
+![lab-8-1.png](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-8(1).png)
 
 #### Чтобы это исправить, мы должны поменять в 5 строке с 2 на 1 и тогда наш код заработает
-
-```
-
-![lab-8-1.png]()
-
 ```python
 value = 0
 while value < 100:
@@ -217,9 +215,9 @@ while value < 100:
     print(value)
 
 ```
+#### Результат
 ![lab-8-2](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-8(2).png)
-### Результат
-![ссылка]()
+
 
 ## Лабораторная работа №9
 
