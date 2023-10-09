@@ -10,16 +10,16 @@
 
 | Задание | Лаб_раб | Сам_раб |
 | ------ | ------ | ------ |
-| Задание 1 | - | + |
-| Задание 2 | - | + |
-| Задание 3 | - | + |
-| Задание 4 | - | + |
-| Задание 5 | - | + |
-| Задание 6 | - | - |
-| Задание 7 | - | - |
-| Задание 8 | - | - |
-| Задание 9 | - | - |
-| Задание 10 | - | - |
+| Задание 1 | + | + |
+| Задание 2 | + | + |
+| Задание 3 | + | + |
+| Задание 4 | + | + |
+| Задание 5 | + | + |
+| Задание 6 | + | - |
+| Задание 7 | + | - |
+| Задание 8 | + | - |
+| Задание 9 | + | - |
+| Задание 10 | + | - |
 
 
 ## Лабораторная работа №1
@@ -37,7 +37,7 @@ else:
     print(' Не выполняется ')
 ```
 ### Результат
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-1.png)
 
 ## Лабораторная работа №2
 
@@ -57,7 +57,7 @@ else:
     print('Переменная больше 10')
 ```
 ### Результат
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-2.png)
 
 
 ## Лабораторная работа №3
@@ -76,11 +76,11 @@ else:
 ```
 ### Результат
 
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-3(1).png)
 
 Работа программы при значении, которого нет в массиве numbers
 
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-3(2).png)
 
 ## Лабораторная работа №4
 
@@ -100,8 +100,9 @@ else:
     print(f"Переменной {value} нет в массиве numbers")
 ```
 ### Результат
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-4(1).png)
 
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-4(2).png)
 
 ## Лабораторная работа №5
 
@@ -125,7 +126,7 @@ for i in range(10):
         break
 ```
 ### Результат
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-5.png)
 
 
 ## Лабораторная работа №6
@@ -146,7 +147,7 @@ else:
     print(f"Буквы '{value}' нет в указанной строке")
 ```
 ### Результат
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-6.png)
 
 ## Лабораторная работа №7
 
@@ -179,7 +180,7 @@ else:
 ```
 
 ### Результат
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-7.png)
 
 ## Лабораторная работа №8
 
@@ -202,7 +203,7 @@ while value < 100:
 
 ```
 
-![lab-8-1]()
+![lab-8-1.png]()
 
 ```python
 value = 0
@@ -216,7 +217,7 @@ while value < 100:
     print(value)
 
 ```
-![lab-8-2]()
+![lab-8-2](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-8(2).png)
 ### Результат
 ![ссылка]()
 
@@ -237,7 +238,7 @@ for i in range(10):
 print(value)
 ```
 ### Результат
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-9.png)
 
 ## Лабораторная работа №10
 
@@ -258,7 +259,7 @@ else:
 
 ```
 ### Результат
-![ссылка]()
+![ссылка](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Pictures/lab-10.png)
 
 
 ## Самостоятельная работа №1
