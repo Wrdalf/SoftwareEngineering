@@ -208,4 +208,68 @@ from math import *
 ![Результат]()
 
 ### Вывод:
-здесь должен быть вывод
+
+
+# Лабораторная работа # 9
+#### напишите программу, которая будет рассчитывать какой день недели будет через n-ное количество дней, которые укажет пользователь
+
+```python
+from datetime import  datetime as dt
+from datetime import timedelta as td
+
+def main():
+    print(
+        f"Сегодня {dt.today().date()}. "
+        f"Сегодня {dt.today().isoweekday()}"
+    )
+
+    n = int(input('Введите количество дней: '))
+    today =dt.today()
+    result = today + td(days = n)
+    print(
+        f"Через {n} дней будет {result.date()}. "
+        f"День недели - {result.isoweekday()}"
+    )
+if __name__ == '__main__':
+    main()
+```
+
+
+### Результат:
+![Результат]()
+
+
+# Лабораторная работа # 10
+#### Напишите программу с использованием глобальных переменных, которая будет считать площадь треугольника или прямоугольника в зависимости от того, что выберет пользователь. Получение всей необходимой информации реализовать через input(), а подсчет площадей выполнить при помощи функций. Результатом программы бубет число, равное площади, необходимой фигуры
+
+
+```python
+global result
+
+def rectangle():
+    a = float(input("Ширина: "))
+    b = float(input("Высота: "))
+    global result
+    result = a * b
+
+def triangle():
+    a = float(input("Основание: "))
+    h = float(input("Высота: "))
+    global result
+    result = 0.5 * a * h
+
+figure = input("1 - rectangle, 2 - triangle: ")
+
+if figure == '1':
+    rectangle()
+elif figure == '2':
+    triangle()
+
+print(f"Площадь: {result}")
+```
+
+
+### Результат:
+![Результат]()
+
+
