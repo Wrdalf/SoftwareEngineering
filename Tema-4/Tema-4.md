@@ -205,9 +205,9 @@ from math import *
 ```
 
 ### Результат:
-![Результат]()
+![Результат](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-4/Pictures/lab-8.png)
 
-### Вывод:
+
 
 
 # Лабораторная работа # 9
@@ -236,7 +236,7 @@ if __name__ == '__main__':
 
 
 ### Результат:
-![Результат]()
+![Результат](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-4/Pictures/lab-9.png)
 
 
 # Лабораторная работа # 10
@@ -270,7 +270,9 @@ print(f"Площадь: {result}")
 
 
 ### Результат:
-![Результат]()
+![Результат](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-4/Pictures/lab-10.png)
+
+
 
 # Самостоятельная работа №1
 #### дайте прдробный комментарий для кода, написанного ниже, комментарий нужен для каждой строчки кода, нужно описать что она делает. Не забудьте, что функции комментируются по-особенному
@@ -316,8 +318,6 @@ if __name__ == '__main__': # точка входа
 ### Вывод:
 #### здесь должен быть вывод
 
-### Результат:
-![Результат]()
 
 # Самостоятельная работа №2
 ####
@@ -339,7 +339,7 @@ kubik()
 ```
 
 ### результат:
-![результат]()
+![результат](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-4/Pictures/sam2.png)
 
 ### Вывод:
 #### здесь должен быть вывод
@@ -359,7 +359,7 @@ while now_time < end_time:
 ```
 
 ### результат:
-![результат]()
+![результат](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-4/Pictures/sam-3.png)
 
 ### Вывод:
 #### здесь должен быть вывод
@@ -402,7 +402,7 @@ if __name__ == "__main__":
 ```
 
 ### результат:
-![результат]()
+![результат](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-4/Pictures/sam-4.png)
 
 ### Вывод:
 #### здесь должен быть вывод
