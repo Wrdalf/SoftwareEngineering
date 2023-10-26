@@ -276,7 +276,38 @@ print(f"Площадь: {result}")
 #### дайте прдробный комментарий для кода, написанного ниже, комментарий нужен для каждой строчки кода, нужно описать что она делает. Не забудьте, что функции комментируются по-особенному
 
 ```python
+from datetime import datetime # Подключаем модуль datetime из библиотеки
+from math import sqrt #  импорт из пакета math функции sqrt
 
+
+def main(**kwargs):
+    """
+    Поиск корня произведения первого элемента массива со вторым элементом массива
+
+    Args:
+        **kwargs (key [int,int])
+
+    returns:
+        result (float): корень произведения
+
+    """
+    for key in kwargs.items(): # проходим циклом по кортежу
+        result = sqrt(key[1][0] ** 2 + key[1][1] ** 2) # возводим первый и второй элементы массива и суммируем их
+        print(result) # выводим результат
+
+if __name__ == '__main__': # точка входа
+    start_time = datetime.now() # переменной start_time присваивается функция datetime.now()
+    main(  # вызов функции
+        one = [10, 3],  # аргументы передаваемые в функцию
+        two = [5, 4],
+        three = [15,13],
+        four = [93, 53],
+        five = [133, 15]
+    )
+
+    time_costs = datetime.now() - start_time # рассчет затраченого времени на работу программы
+    print(f"время выполнения программы - {time_costs}") # вывод времени выполнения
+    
 ```
 
 ### результат:
@@ -291,7 +322,20 @@ print(f"Площадь: {result}")
 # Самостоятельная работа №2
 ####
 ```python
+import random
+def kubik():
+    value = random.randint(1,6)
+    print(f"Выпало число: {value}")
 
+    if value in [5,6]:
+        print("Вы победили")
+    elif value in [3,4]:
+        kubik()
+    else:
+        print("вы проиграли")
+
+
+kubik()
 ```
 
 ### результат:
@@ -303,7 +347,15 @@ print(f"Площадь: {result}")
 # Самостоятельная работа №3
 ####
 ```python
+import datetime
+import time
 
+now_time = datetime.datetime.now()
+end_time = now_time + datetime.timedelta(seconds=4)
+while now_time < end_time:
+    now_time = datetime.datetime.now()  # получаем текущее время
+    print(now_time.strftime("%H:%M:%S"))  # зыводим текущее время
+    time.sleep(1)  # заводим задержку на 1 секунду
 ```
 
 ### результат:
@@ -315,7 +367,38 @@ print(f"Площадь: {result}")
 # Самостоятельная работа №4
 ####
 ```python
+def calculate_average(numbers):
+    if not numbers: # проверка на то, что массив не пустой, чтобы не было деления на 0
+        return None
 
+    total = sum(numbers)
+    average = total / len(numbers)
+    return average
+
+
+if __name__ == "__main__":
+    print('* Введите хотя бы одно число * ')
+    input_numbers = []
+
+    while True:
+        user_input = input("Введите числовый аргумент (или 'end' для завершения ввода): ")
+
+        if user_input.lower() == 'end':
+            break
+
+        try:
+            number = float(user_input)
+            input_numbers.append(number) # ловим числа из пользовательского ввода
+
+        except ValueError:
+            print("Неверный формат числа. Попробуйте ещё раз.") # ловим исключения при вводе неверного аргумента
+
+    average = calculate_average(input_numbers)  # Вычисляем среднее арифметическое
+
+    if average is not None:
+        print(f"Среднее арифметическое: {average}")
+    else:
+        print("Вы не ввели ни одного числа")
 ```
 
 ### результат:
