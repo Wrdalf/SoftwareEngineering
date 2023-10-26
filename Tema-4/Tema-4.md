@@ -410,7 +410,23 @@ if __name__ == "__main__":
 # Самостоятельная работа №5
 ####
 ```python
+from math import sqrt
 
+
+def triangle_area(a, b, c):
+    s = (a + b + c) / 2
+    area = sqrt(s * (s - a) * (s - b) * (s - c))
+    return area
+```
+```python
+import area
+
+a = float(input("Введите длину стороны a: "))
+b = float(input("Введите длину стороны b: "))
+c = float(input("Введите длину стороны c: "))
+
+area = area.triangle_area(a, b, c)
+print(f"Площадь треугольника: {area}")
 ```
 
 ### результат:
