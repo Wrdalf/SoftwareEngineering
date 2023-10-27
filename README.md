@@ -7,9 +7,9 @@
 2. [Тема 2](https://github.com/Wrdalf/SoftwareEngineering/blob/main/%D1%82%D0%B5%D0%BC%D0%B0-2/Tema2.md)
 3. [Тема 3](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-3/Tema3.md)
 4. [Тема 4](https://github.com/Wrdalf/SoftwareEngineering/blob/main/Tema-4/Tema-4.md)
-5. [Тема 6(В работе)]()
-6. [Тема 7(В работе)]()
-7. [Тема 8(В работе)]()
+5. [Тема 5(В работе)]()
+6. [Тема 6(В работе)]()
+7. [Тема 7(В работе)]()
 
 
 
