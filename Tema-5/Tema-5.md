@@ -42,7 +42,7 @@ print('3', set_1 - set_2)
 
 ```
 ### Результат:
-![Результат](![lab-1.png](Pictures%2Flab-1.png))
+![lab-1.png](Pictures%2Flab-1.png)
 
 
 
@@ -59,7 +59,7 @@ print(a)
 ```
 
 ### Результат:
-![Результат](![lab-2.png](Pictures%2Flab-2.png))
+![lab-2.png](Pictures%2Flab-2.png)
 
 ```python
 a = frozenset('abcdefg')
@@ -70,7 +70,7 @@ print(i)
 ```
 
 ### Результат:
-![Результат](![lab-2-2.png](Pictures%2Flab-2-2.png))
+![lab-2-2.png](Pictures%2Flab-2-2.png)
 
 
 
@@ -90,7 +90,7 @@ print(replace([1, 2, 3, 4, 5, 6]))
 ```
 
 ### Результат:
-![Результат]()
+![lab-3.png](Pictures%2Flab-3.png)
 
 
 
@@ -104,7 +104,7 @@ print(a[2:6])
 ```
 
 ### Результат:
-![Результат]()
+![lab-4.png](Pictures%2Flab-4.png)
 
 
 
@@ -121,7 +121,7 @@ print(useless([-25.8, 86, 12.5, -56, 73.2, 0, 43, -91.5, 65.9, -7]))
 ```
 
 ### Результат:
-![Результат]()
+![lab-5.png](Pictures%2Flab-5.png)
 
 
 
@@ -140,7 +140,7 @@ print('Иван - ',ivan)
 ```
 
 ### Результат:
-![Результат]()
+![lab-6.png](Pictures%2Flab-6.png)
 
 
 
@@ -157,7 +157,7 @@ print('Отсортированный список без наименьшего
 ```
 
 ### Результат:
-![Результат]()
+![lab-7.png](Pictures%2Flab-7.png)
 
 
 
@@ -181,7 +181,7 @@ if __name__ == '__main__':
 ```
 
 ### Результат:
-![Результат]()
+![lab-8.png](Pictures%2Flab-8.png)
 
 
 
@@ -208,8 +208,7 @@ if __name__ == '__main__':
 ```
 
 ### Результат:
-![Результат]()
-
+![lab-9.png](Pictures%2Flab-9.png)
 
 
 # Лабораторная работа №10
@@ -222,7 +221,7 @@ print(my_list[::-1])
 ```
 
 ### Результат:
-![Результат]()
+![lab-10.png](Pictures%2Flab-10.png)
 
 
 
